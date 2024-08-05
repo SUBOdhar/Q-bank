@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        function insertAtCursor(myField, myValue) {
+            if (document.selection) {
+                myField.focus();
+                var sel = document.selection.createRange();
+                sel.text = myValue;
+            } else if (myField.selectionStart || myField.selectionStart === 0) {
+                var startPos = myField.selectionStart;
+                var endPos = myField.selectionEnd;
+                myField.value = myField.value.substring(0, startPos) +
+                    myValue +
+                    myField.value.substring(endPos, myField.value.length);
+                myField.selectionStart = startPos + myValue.length;
+                myField.selectionEnd = startPos + myValue.length;
+            } else {
+                myField.value += myValue;
+            }
+            updatePreview();  // Update preview after inserting LaTeX
+        }
+
+        function updatePreview() {
+            const grade = document.getElementById('grade').value;
+            const subject = document.getElementById('subject').value;
+            const question = document.getElementById('question').value;
+            const marks = document.getElementById('marks').value;
+            const preview = document.getElementById('preview');
+
+            preview.innerHTML = `<strong>Grade:</strong> ${grade}<br>
+                                 <strong>Subject:</strong> ${subject}<br>
+                                 <strong>Question:</strong> <span class="math">${question}</span><br>
+                                 <strong>Marks:</strong> ${marks}`;
+
+            MathJax.typesetPromise([preview]).catch(function (err) {
+                console.log(err);
+            });
+        }
+
+        document.addEventListener('input', updatePreview);
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Question Manager</h1>
+        <form action="{{ url_for('add_question') }}" method="post">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="grade">Grade:</label>
+                    <select id="grade" name="Grade" required>
+                        <option value="">Select Grade</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="Subject" required>
+                        <option value="">Select Subject</option>
+                        <option value="physics">Physics</option>
+                        <option value="chemistry">Chemistry</option>
+                        <option value="biology">Biology</option>
+                        <option value="mathematics">Mathematics</option>
+                        <option value="nepali">Nepali</option>
+                        <option value="english">English</option>
+                        <option value="computer-science">Computer Science</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="marks">Marks:</label>
+                    <input type="number" id="marks" name="Marks" required>
+                </div>
+            </div>
+            <label for="question">Question:</label>
+            <textarea id="question" name="Question" required rows="4" cols="50"></textarea><br><br>
+
+            <div class="latex-buttons" aria-label="Insert LaTeX formulas">
+                <button type="button"
+                    onclick="insertAtCursor(document.getElementById('question'), '\\(a^{b}\\)')">Power</button>
+                <button type="button"
+                    onclick="insertAtCursor(document.getElementById('question'), '\\(\\sqrt{a}\\)')">Square
+                    Root</button>
+                <button type="button"
+                    onclick="insertAtCursor(document.getElementById('question'), '\\(a^{\\circ}\\)')">Degree</button>
+                <button type="button"
+                    onclick="insertAtCursor(document.getElementById('question'), '\\(\\frac{a}{b}\\)')">Fraction</button>
+                <button type="button"
+                    onclick="insertAtCursor(document.getElementById('question'), '\\(\\begin{matrix} & \\\\ & \\\\ \\end{matrix}\\)')">Matrix</button>
+                <button type="button"
+                    onclick="insertAtCursor(document.getElementById('question'), '\\(\\det\\)')">Determinant</button>
+            </div>
+
+            <input type="submit" value="Add Question">
+        </form>
+
+        <h2>Preview</h2>
+        <div id="preview" class="preview-box"></div>
+
+        <h2>Stored Questions</h2>
+        <ul>
+            {% for question in questions %}
+            <li>
+                Grade: {{ question.Grade }}, Subject: {{ question.Subject }}, Question: <span class="math">{{
+                    question.Question }}</span>, Marks: {{ question.Marks }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            MathJax.typeset();
+        });
+    </script>
+</body>
+
+</html>
