@@ -1,0 +1,368 @@
+[
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Define Regular objet?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Convert 5 Days into second?",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "What is MKS system?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "What is acceleration?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "A motorcycle starts to move form rest if the velocity of the motorcycle becomes 90km/hr after 10sec.calculate the acceleration.",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Why is speed called scalar quantity?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "A person covers a distance of 1500m in 3 minutes.Calculate the speed of the person.",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Prove that P=hdg.",
+        "Marks": 3
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "What is apmospheric pressure?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Write the principle of lever.",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "The efficiency of matine is 100% why?",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "What is work?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "write the form of the following. /n i)Water at dam /t ii)coal /t iii)food /t iv)bullet fired from gun",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "What is one watt power?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Calculate the power of a man if he lifts a load of 175N to a height of 25m in 10sec.",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "A porter carries 20 bricks.The weight of one brick is 10N.If he covers 100m by carrying a load of 20 bricks in 50 sec.Calculate his power",
+        "Marks": 3
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Define atom.",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Draw an atomic structure of sodium.",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Find the molecular formula of /n i)sodium Chloride /t ii)Magnesium sulphate /t iii)Aluminium hydroxide",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Define periodic table.",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "What are period and groups?",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Define crystal and crystallization.",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Write the steps of seperation of the following mixture. /n i)iron dust + sand /t ii)alcohol + water /t iii)salt + iodine /t iv)red and blue ink /t v)sand + sugar /t vi) water + salt",
+        "Marks": 3
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "what is chromatography?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "write any two application of chromatography",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "write the ore of the following metals. /n i)silver /t ii)Iron /t iii)copper /t iv) aluminium",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Define acid and base with one /one examples.",
+        "Marks": 3
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "what do you mean by soft water?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "write any one profit of using soft water?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "write any two uses of hard water?",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Write any two method to conserve soil.",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "what are the factors affecting climate. write",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "what is soil profile?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "Draw a diagram showing soil profile",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "what is rock?",
+        "Marks": 1
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "classify the following rock. /n i)marble /t ii)pumic /t iii)limestone",
+        "Marks": 2
+    },
+    {
+        "Grade": 8,
+        "Subject": "science",
+        "Question": "what is constellation?",
+        "Marks": 1
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Write a program using user defined function to check whether the given number is prime or composite using any type.",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Write a program using user defined function to print factors of a number using arguments and return value.",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "write down the four differences between recursion and iteration.",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "write down the four differences between local variable and global variable.",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Expalin the accessibility and existence features of each storage class in brief.",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Explain external storage class with a program.",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Write a program to print the fibonacci series up to the nth term using recursion.",
+        "Marks": 4
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Why it has become important to learn Artificial Inteligence in the Morden Era.",
+        "Marks": 1
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "What are some potential benifits AI in society.",
+        "Marks": 1
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Elaborate any 5 application of AI.",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Why is iteration more efficient than recursion in many cases?",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "How can we pass array tp user-defined function?",
+        "Marks": 2
+    },
+    {
+        "Grade": 12,
+        "Subject": "Computer Science",
+        "Question": "Write a program to sort the elements of an array in an ascending order and pass it to anothr sunction using user-defined function(Arguments and No return Value).",
+        "Marks": 5
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "Derive an equation relating magnification and focal length of a curved mirror.",
+        "Marks": 2
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "A child looking in to a small hemispherical metal bowl sees an erect image of himself 21 cm from teh bowl.He turns the bowl over and sees a further erect image of himself 7cm from the bowl.what is the radius of curvature of the bowl?",
+        "Marks": 3
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "Why is calorimeter made up of copper and lagged with wooden box?",
+        "Marks": 2
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "A tap water supplies water at \\(10^\\circ \\)C  and another tap at \\(100^\\circ \\)C . How much hot water must be taken so that we get 20 kg of water at \\(35^\\circ\\)C ?",
+        "Marks": 3
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "Explain the variation of density of substance with the temperature.",
+        "Marks": 2
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "Describe with the mathematical details to determine the real expansivity of liquid.",
+        "Marks": 3
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "Explain the concept of water equivalent of a substance.",
+        "Marks": 2
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "What is the meaning of the heat capacity of 0.5Kg of copper = 195 J/k ?From this information find the final temperature of the mixture when in copper vessel of mass 100gm at \\(100^\\circ \\)C 50 gm of water at \\(25^\\circ \\) is poured .(specific heat capacity of water 4.2 x \\(10^3 \\) j/kgK)",
+        "Marks": 3
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": " Derive an expression fo electric potential at a point in the electrostatic field of a point charge.",
+        "Marks": 2
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "An electron is situated in uniform electric field of intensity 1.2 x \\(10^5 \\) N/C. Find the time it takes to travel 4 cm from rest.",
+        "Marks": 2
+    },
+    {
+        "Grade": 11,
+        "Subject": "physics",
+        "Question": "Define electric potential.",
+        "Marks": 1
+    }
+]
